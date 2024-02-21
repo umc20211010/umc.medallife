@@ -1,4 +1,35 @@
+@font-face {
+    font-family: 'CustomFont'; /* 設定字體名稱 */
+    src: url('assets/codec-pro.regular.ttf') format('truetype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden !important;
+    background-color: #FFFFFF;
+    font-family: 'CustomFont', sans-serif;
+    /*font-family: 'CODEC PRO', sans-serif;*/
+}
+button {
+    background-color: transparent;
+    border: none;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+}
 @media (orientation: portrait){
+    .content{
+        overflow-x: hidden !important;
+    }
     .content h2{
         /*text-indent: 20px; /* 設定段落的縮進，可以根據需要調整數值 */
     }

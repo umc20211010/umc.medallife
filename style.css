@@ -50,6 +50,8 @@ footer {
     content: "\23F0";
     margin-right: 5px;
 }
+
+@media (orientation: landscape){
 .content h2{
     /*text-indent: 20px; /* 設定段落的縮進，可以根據需要調整數值 */
 }
@@ -431,4 +433,5 @@ footer {
 }
 .downbut:hover{
     color: #FFF200;
+}
 }
