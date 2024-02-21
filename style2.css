@@ -1,28 +1,4 @@
 @media (orientation: portrait){
-    .icon1::before{
-        content: "\1F31F";
-        margin-right: 5px;
-    }
-    .icon2::before{
-        content: "\1F4AF";
-        margin-right: 5px;
-    }
-    .icon3::before{
-        content: "\1F6A9";
-        margin-right: 5px;
-    }
-    .icon4::before{
-        content: "\1F4C3";
-        margin-right: 5px;
-    }
-    .icon5::before{
-        content: "\2705";
-        margin-right: 5px;
-    }
-    .icon6::before{
-        content: "\23F0";
-        margin-right: 5px;
-    }
     .content h2{
         /*text-indent: 20px; /* 設定段落的縮進，可以根據需要調整數值 */
     }
@@ -38,7 +14,7 @@
         position: absolute;
         top: 3vh;
         left: 0;
-        width: 100%;
+        width: 100vw;
         height: 100%;
         opacity: 0; /* 初始化透明度為0，隱藏圖片 */
         animation: fadeIn 1s ease-in-out forwards; /* 動畫名稱、持續時間、動畫範疇、最終狀態 */
@@ -88,7 +64,7 @@
         position: absolute;
         top: 0;
         left: 0;
-        width: 100%;
+        width: 100vw;
         height: 11vh;
         z-index: 9;
         background-color: #204625;
@@ -102,12 +78,12 @@
         background-color: #204625;
     }
     .top-color1{
-        width: 100%;
+        width: 100vw;
         height: 17vw;
         background-color: #204625aa;
     }
     .top-color2{
-        width: 100%;
+        width: 100vw;
         height: 11vw;
         background-color: #333333aa;
     }
@@ -409,6 +385,7 @@
     .downbut{
         left: 4vw;
         font-size: 1.5em;
+        width: 80vw;
         color: #ffffff;
     }
     .downbut:hover{

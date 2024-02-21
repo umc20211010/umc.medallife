@@ -24,7 +24,7 @@ footer {
     padding: 1em;
     position: fixed;
     bottom: 0;
-    width: 100%;
+    width: 100vw;
 }
 .icon1::before{
     content: "\1F31F";
@@ -64,7 +64,7 @@ footer {
     position: absolute;
     top: 3vh;
     left: 0;
-    width: 100%;
+    width: 100vw;
     height: 100%;
     opacity: 0; /* 初始化透明度為0，隱藏圖片 */
     animation: fadeIn 1s ease-in-out forwards; /* 動畫名稱、持續時間、動畫範疇、最終狀態 */
@@ -114,7 +114,7 @@ footer {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 100vw;
     height: 11vh;
     z-index: 9;
     background-color: #204625;
@@ -128,12 +128,12 @@ footer {
     background-color: #204625;
 }
 .top-color1{
-    width: 100%;
+    width: 100vw;
     height: 11vh;
     background-color: #204625aa;
 }
 .top-color2{
-    width: 100%;
+    width: 100vw;
     height: 8vh;
     background-color: #333333;
 }
